@@ -9,11 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -23,15 +19,35 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/apple.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
-                    Iphone 13
+                    iPhone 13
                 </a>
             </div>
         </nav>
-        <div class="container" style="min-height: calc(100vh - 80px);">
-            <div class="row align-items-center mt-3" style="padding-top: 60px;">
+
+        <div class="container text-center pt-5 mt-4" style="min-height: calc(100vh - 80px);">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 text-black text-center">
+                    <p class="fs-3 fw-semibold">Introducing</p>
+                    <h1 class="display-1 fw-semibold">iPhone 13</h1>
+                    <p class="fs-1 fw-semibold">Up to 19 hours video playback.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center" style="min-height: 500px; padding: 40px 0;">
+                <div class="col-md-12 text-center px-4 align-items-center">
+                    <img src="images/first_page.png" alt="Profile" class="img-fluid"
+                        style="filter: drop-shadow(0 12px 18px rgba(0,0,0,0.45)); width: 950px; height: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="background-color: #ffffff; min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center mt-5" style="padding-top: 100px;">
                 <div class="col-md-6 text-black text-center text-md-start">
-                    <h1 class="display-4 fw-bold">Iphone 13</h1>
-                    <p class="lead mb-5"> features a sleek design, advanced dual-camera system, and the powerful A15
+                    <p class="lead fs-3 fw-semibold mb-5">Features a sleek design, advanced dual-camera system, and the
+                        powerful A15
                         Bionic chip. It offers improved battery life and vibrant Super Retina XDR display for an
                         enhanced user experience.</p>
                     <div class="col text-black">
@@ -52,9 +68,130 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <div style="background-color: #ffffff; min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center" style="padding-top: 100px;">
+                <div class="col-md-6 text-black text-center text-md-start">
+                    <p class="lead fs-3 fw-semibold mb-5">Available in six stunning colors: RED, Starlight,
+                        Midnight, Blue, Pink, and Green — the iPhone 13 lets you choose a style that perfectly matches
+                        your personality.</p>
+                </div>
+                <div class="col-md-6 text-center px-4 align-items-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="images/midnight.png" class="d-block w-100" alt="Midnight iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Midnight</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/green.png" class="d-block w-100" alt="Green iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Green</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/starlight.png" class="d-block w-100" alt="Starlight iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Starlight</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/red.png" class="d-block w-100" alt="Red iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Red</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/Screenshot_2025-10-26_204523-removebg-preview.png"
+                                            class="d-block w-100" alt="Blue iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Blue</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pink.png" class="d-block w-100" alt="Pink iPhone">
+                                        <div class="carousel-caption d-md-block">
+                                            <h5>Pink</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #ffffff; min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center" style="padding-top: 100px;">
+                <div class="col-md-6 text-black text-center text-md-start">
+                    <p class="lead fs-3 fw-semibold mb-5">The new, brighter Super Retina XDR display delivers an
+                        immersive viewing experience.</p>
+                </div>
+                <div class="col-md-6 text-center px-4 align-items-center">
+                    <img src="images/display.png" alt="Profile" class="img-fluid"
+                        style="filter: drop-shadow(0 12px 18px rgba(0,0,0,0.45));">
+                </div>
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-md-6 text-center px-4 align-items-center">
+                    <img src="images/girl.png" alt="Profile" class="img-fluid"
+                        style="filter: drop-shadow(0 12px 18px rgba(0,0,0,0.45));">
+                </div>
+                <div class="col-md-6 text-black text-center text-md-start">
+                    <p class="lead fs-3 fw-semibold mb-5">The advanced Super Retina XDR OLED display is 28 percent
+                        brighter while being more power efficient.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div style="background-color: #ffffff; min-height: 100vh;">
+            <div class="container">
+                <div class="row align-items-center" style="padding-top: 100px;">
+                    <div class="col-md-6 text-black text-center text-md-start">
+                        <p class="lead fs-4 fw-semibold mb-5">Photographic Styles allows users to bring their personal
+                            photo preferences to every image while still benefitting from Apple’s multiframe image
+                            processing.</p>
+                    </div>
+                    <div class="col-md-6 text-center px-4 align-items-center">
+                        <img src="images/photographic.png" alt="Profile" class="img-fluid"
+                            style="filter: drop-shadow(0 12px 18px rgba(0,0,0,0.45)); width: 350px">
+                    </div>
+                </div>
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6 text-center px-4 align-items-center">
+                        <img src="images/cinematic.png" alt="Profile" class="img-fluid"
+                            style="filter: drop-shadow(0 12px 18px rgba(0,0,0,0.45));">
+                    </div>
+                    <div class="col-md-6 text-black text-center text-md-start">
+                        <p class="lead fs-4 fw-semibold mb-5">Cinematic mode records videos of people, pets, and objects
+                            with a beautiful depth effect with automatic focus changes, so anyone can capture
+                            cinema-style moments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
